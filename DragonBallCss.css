@@ -1,0 +1,61 @@
+#LogoCabeza{
+
+  display: flex;
+}
+/* img[alt="logo"]{
+ border: 10px solid red;
+    border: 10px solid red;
+} */
+#cabecera{
+    width: 96%;
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    align-items: flex-end; 
+    padding-bottom: 10px; 
+    justify-content: space-between;
+    padding-left: 24px;
+    position:fixed;
+    top: 0;
+}
+
+#buscador{
+    display: flex;
+    align-self: center;
+    padding-right: 10px;
+}
+#logoGrande{
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+    
+}
+img[alt=logoDragon]{
+    display: flex;
+    justify-self: center;
+}
+.personaje{
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border: 10px black solid;
+    border-radius: 20%; */
+    border: 10px black solid;
+    /* border-radius: 4%; */
+
+}
+.especificaciones{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#botones{
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+}
+
